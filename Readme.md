@@ -1,4 +1,4 @@
 Project Euler
 =============
 
-This repository holds my solutions to Project Euler problems in various languages including Java and C++.
+This repository holds some of my solutions to the Project Euler problems I've completed.
