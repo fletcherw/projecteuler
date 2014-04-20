@@ -8,7 +8,7 @@ def is_abundant(x):
 	if (root == int(root)): sum -= root
 	return sum > x
 
-limit = 28123 + 1
+limit = 20161 + 1 #Actual lower limit for abundant sums is 20161
 	
 abundants = filter(is_abundant, range(12, limit, 1))
 
