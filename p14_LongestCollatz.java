@@ -13,11 +13,10 @@ public class Collatz {
          if (length > highestlength) {
             highestlength = length;
             highestval = i;
-            System.out.print(i + ", ");
          }
       }
-      System.out.println(highestval);
-      System.out.println(highestlength);
+      System.out.printf("Starting number: %d (chain length %d)\n", 
+                        highestval, highestlength);
    }
    
    public static int length(long i) {

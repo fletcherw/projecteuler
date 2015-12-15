@@ -107,6 +107,7 @@ public class TenDigit {
       for (int ii = 0; ii < 100; ii++) {
          sum += Long.parseLong(nums[ii].substring(0,17), 10);
       }
-      System.out.println(sum);
+      String digits = Long.toString(sum);
+      System.out.println(digits.substring(0, 10));
    }
 }

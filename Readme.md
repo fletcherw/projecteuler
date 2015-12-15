@@ -1,4 +1,4 @@
 Project Euler
 =============
 
-This repository holds some of my solutions to the Project Euler problems I've completed.
+This repository holds solutions to some of the Project Euler problems I've completed.
