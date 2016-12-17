@@ -2,11 +2,11 @@ import java.util.Arrays.*;
 import java.util.Arrays;
 
 
-public class Collatz {
+public class p014_LongestCollatz {
    public static void main(String[] args) {
       long highestlength = 0;
       long highestval = 0;
-      for (int i=1; i < 1000000; i++) {
+      for (int i=1; i < 100; i++) {
          long length = 1;
          long current = i;
          length = length(current);
